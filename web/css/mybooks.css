@@ -1,0 +1,14 @@
+body {
+    padding-top: 50px;
+}
+
+.bookTitle:hover, .bookTitle:focus {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    text-align: center;
+}
