@@ -32,7 +32,7 @@ class Book
   private $isbn;
 
   /**
-   * Associated author.
+   * Author.
    *
    * @var \MyBooks\Domain\Author
    */
@@ -74,7 +74,7 @@ class Book
     return $this->author;
   }
 
-  public function setAuthor(Author $author) {
+  public function setAuthor($author) {
     $this->author = $author;
   }
 }
